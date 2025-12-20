@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+body{
+    margin: 0 50px;
+}
+
+/* first logo section */
+
+#logo-image{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.logo{
+    max-width: 145px;
+    height: 45px;
+}
+/* hero  section */
+
+#hero{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 30px; */
+    background-color: #FEEAE9;
+    width: 100%;
+    /* width: 1128px; */
+    height: 450px;
+    padding: 30px;
+    margin-bottom: 80px;
+}
+#hero-heding{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#hero-heding h1{
+    font-size: 56px;
+    color: #1f1f1f;
+    margin-bottom: 20px;
+}
+#hero-heding p{
+    font-size: 16px;
+    color: #4E4E4E;
+    margin-bottom: 30px;
+    width: 456px;
+}
+#hero-heding h2{
+    font-size: 41px;
+    color: #FF136F;
+    margin-bottom: 20px;
+}
+#hero-heding button{
+    font-size: 16px;
+    background-color: #FF136F;
+    padding:  13px 20px;
+    color: #ffffff;
+    border-radius: 6px;
+    shape-outside: none;
+    border: none;
+    cursor: pointer;
+}
+#hero-img{
+    width: 100%;
+    max-width: 402px;
+    height: 378px;
+    vertical-align: middle;
+    object-fit: contain;
+
+}
+
+
+
+
+/* responsive */
+/* laptop device 1025-1200px */
+@media screen and (max-width:1200px){
+   #hero-heding h1{
+        font-size: 40px;
+    }
+    #hero-heding h2{
+        font-size: 32px;
+    }
+    #hero-heding p{
+        font-size: 16px;
+        width: 400px;
+    }
+}
+
+/* tablet device 769-1024px */
+@media screen and (max-width:1024px){
+   /* #hero{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+    } */
+    #hero-heding{
+        margin: 20px 0;
+    }
+    #hero-heding p{
+        width: 100%;
+    }
+    #hero-img{
+        max-width: 60%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+}
+/* android device landscape 569-768px */
+@media screen and (max-width:768px){
+
+}
+/* android device potrate 320px  */
+@media screen and (max-width:568px){
+
+}
