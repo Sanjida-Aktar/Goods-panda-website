@@ -1,10 +1,58 @@
 
 @media screen and (max-width:1200px) {
-    
+   #hero-heding h1{
+    font-size: 44px;
+   }
+   #hero-img{
+    width: 350px;
+   }
 }
 @media screen and (max-width:992px) {
-    
+    #hero{
+        flex-wrap: wrap;
+        text-align: center;
+        /* flex-direction: row-reverse; */
+        align-items: center;
+    }
+    #hero-img{
+    width: 100%;
+    max-width: 350px;
+    align-items: center;
+    }
+    #Category-box{
+        flex-wrap: wrap;
+    }
+    /* shoes  */
+    .Shoes{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Shoes-box{
+        width: 100%;
+        max-width: 1000px;
+    }
+    .Shoes-box img{
+        display: flex;
+        justify-content: center;
+    }
+    /* end  */
+     #end-section{
+   
+    padding: 50px;
+}
 }
 @media screen and (max-width:640px) {
-    
+    #hero{
+        width: 98%;
+        padding: 10px;
+    }
+    #Category-box{
+        flex-direction: column;
+    }
+    /* shoes  */
+    #end-section{
+   
+    padding: 20px;
+}
 }
